@@ -103,26 +103,26 @@ void loop() {
 }
 
 String getSoundStringByCommand(String command) {
-  if (command == "r") {
+  if (command == "l") {
     return "ha'i";
-  } else if (command == "l") {
+  } else if (command == "r") {
     return "i'ie";
-  } else if (command == "rrr") {
-    return "to'ireni ikitai.";
-  } else if (command == "rrl") {
-    return "to'ireni ikitakunai.";
+  } else if (command == "ll") {
+    return "shokuji.";
+  } else if (command == "rr") {
+    return "to'ire";
   } else if (command == "llr") {
-    return "go'hanwo tabeta'i.";
+    return "sanpo";
+  } else if (command == "lrr") {
+    return "oyatu.";
   } else if (command == "lll") {
-    return "go'hanwo tabetakuna'i.";
-  } else if (command == "rrrr" ) {
-    return "ki'bunga i'i";
-  } else if (command == "rrrl") {
-    return "ki'bunga waru'i";
+    return "okaasan.";
+  } else if (command == "rrr" ) {
+    return "otousan";
   } else if (command == "lllr") {
-    return "odekake sita'i.";
-  } else if (command == "llll") {
-    return "odekake sitakuna'i.";
+    return "atama itai.";
+  } else if (command == "1rrr") {
+    return "onaka itai.";
   }
   return "";
 }
